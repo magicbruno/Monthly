@@ -423,13 +423,16 @@ Monthly 2.2.2 by Kevin Thornbloom is licensed under a Creative Commons Attributi
 		// Advance months
 		$(document.body).on("click", parent + " .monthly-next", function (event) {
 			setNextMonth();
-			event.preventDefault();
+			event.preventDefault();			
+			$(parent + " .monthly-cal").click().remove();
+
 		});
 
 		// Go back in months
 		$(document.body).on("click", parent + " .monthly-prev", function (event) {
 			setPreviousMonth();
-			event.preventDefault();
+			event.preventDefault();			
+			$(parent + " .monthly-cal").click().remove();
 		});
 
 		// Reset Month
@@ -452,13 +455,14 @@ Monthly 2.2.2 by Kevin Thornbloom is licensed under a Creative Commons Attributi
 		});
 
 		// Click A Day
-		$(document.body).on("click touchstart", parent + " .monthly-day", function (event) {
+		$(document.body).on("click touchstart", parent + " .monthly-event-indicator", function (event) {
 			// If events, show events list
-			var whichDay = $(this).data("number");
+			var whichDay = $(this).parent().parent().data("number");
 			if(options.mode === "event" && options.eventList) {
 				var	theList = $(parent + " .monthly-event-list"),
 					myElement = document.getElementById(uniqueId + "day" + whichDay),
 					topPos = myElement.offsetTop;
+				$(myElement).show().siblings().hide();
 				theList.show();
 				theList.css("transform");
 				theList.css("transform", "scale(1)");

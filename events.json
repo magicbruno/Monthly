@@ -1,24 +1,75 @@
-{
-  "monthly": [
-    {
-      "id": 1,
-      "name": "This is a JSON event",
-      "startdate": "2016-9-15",
-      "enddate": "2016-9-18",
-      "starttime": "12:00",
-      "endtime": "2:00",
-      "color": "#FFB128",
-      "url": ""
-    },
-    {
-      "id": 2,
-      "name": "This is a JSON event",
-      "startdate": "2016-10-15",
-      "enddate": "",
-      "starttime": "12:00",
-      "endtime": "2:00",
-      "color": "#EF44EF",
-      "url": ""
-    }
-  ]
+﻿{
+    "monthly": [{
+        "id": 6823,
+        "name": "Forlì. SOS4LIFE- mostra fotografica itinerante \"Un tesoro di suolo\" - 2a tappa",
+        "startdate": "2018-10-5",
+        "enddate": "2018-10-5",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/forlì-sos4life-mostra-fotografica-itinerante-un-tesoro-di-suolo-2a-tappa/"
+    }, {
+        "id": 6824,
+        "name": "Ferrara. Processi, progetti e strumenti per la riqualificazione e rigenerazione urbana in Francia e Italia",
+        "startdate": "2018-9-20",
+        "enddate": "2018-9-20",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/ferrara-processi-progetti-e-strumenti-per-la-riqualificazione-e-rigenerazione-urbana-in-francia-e-italia/"
+    }, {
+        "id": 6832,
+        "name": "Venezia. Urbanpromo Green",
+        "startdate": "2018-9-20",
+        "enddate": "2018-9-21",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/venezia-urbanpromo-green/"
+    }, {
+        "id": 6825,
+        "name": "Ferrara. Riqualificazione/rigenerazione per il rilancio dell\u0027economia",
+        "startdate": "2018-9-19",
+        "enddate": "2018-9-19",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/ferrara-riqualificazione-rigenerazione-per-il-rilancio-dell-economia/"
+    }, {
+        "id": 6826,
+        "name": "Ferrara. RigeneraCity. Incontri e confronti sui temi della rigenerazione del territorio e del social housing",
+        "startdate": "2018-9-19",
+        "enddate": "2018-9-21",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/ferrara-rigeneracity-incontri-e-confronti-sui-temi-della-rigenerazione-del-territorio-e-del-social-housing/"
+    }, {
+        "id": 6830,
+        "name": "Verona. Youbuild 2018",
+        "startdate": "2018-9-17",
+        "enddate": "2018-9-17",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/verona-youbuild-2018/"
+    }, {
+        "id": 6827,
+        "name": "Verona. Fiera del condominio sostenibile ",
+        "startdate": "2018-9-16",
+        "enddate": "2018-9-18",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/verona-fiera-del-condominio-sostenibile/"
+    }, {
+        "id": 6822,
+        "name": "Gattatico. SOS4LIFE - mostra fotografica itinerante “Un tesoro di suolo” - 1a tappa",
+        "startdate": "2018-8-28",
+        "enddate": "2018-8-28",
+        "starttime": "",
+        "endtime": "",
+        "color": "#005998",
+        "url": "/eventi/gattatico-sos4life-mostra-fotografica-itinerante-un-tesoro-di-suolo-1a-tappa/"
+    }]
 }
